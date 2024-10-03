@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de juegos</title>
+    <style>
+        table, th,td, h1, p{
+            border-style: solid;
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        footer  {
+            border-style: solid;
+            text-align: right;
+            padding: 18px;
+            font-size: 25px;
+            
+        }
+
+        td{
+            text-align: center;
+        }
+        button{
+            float: right;
+            height: 43px;
+        }
+        th, td{
+            padding: 40px;
+        }
+
+        h3{
+            font-size: 30px;
+
+            margin: auto;
+        }
+    </style>
+    
+</head>
+
+
+<body>
+    <h1>Tabla de juegos 🎮
+        <button id="button1" onclick="sayHello('Hola JavaScript')"> 
+            Click Here!
+        </button>
+        <button id="button2"onclick="sayHello('Hello JavaScript')"> 
+            Not a Hack!
+        </button>
+        <script>
+            function sayHello(message) {
+                alert(message);
+            }
+        </script>
+    </h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4"><h3>Tabla de juegos 🎮</h3></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><label for="cel1">Forza Horizon 4</label></td>
+                <td><label for="cel2">RDR2</label></td>
+                <td><label for="cel3">Bioshock</label></td>
+                <td><label for="cel4">TLOU2</label></td>
+            </tr>
+            <tr>
+                <td><label for="cel5">Resident Evil</label></td>
+                <td><label for="cel6">Valorant</label></td>
+                <td><label for="cel7">Clash Royal</label></td>
+                <td><label for="cel8">Need for speed</label></td>
+            </tr>
+
+            <tr>
+                <td><label for="cel9">Nier Replicant</label></td>
+                <td><label for="cel10">Call of juarez</label></td>
+                <td><label for="cel11">KH3</label></td>
+                <td><label for="cel12">Roblox</label></td>
+            </tr>
+            <tr>
+                <td><label for="cel13">Final Fantasy VII</label></td>
+                <td><label for="cel14">Battlefield V</label></td>
+                <td><label for="cel15">LoL</label></td>
+                <td><label for="cel16">Content Warning </label></td>
+                
+            </tr>
+         
+        </tbody>
+    </table>
+    <div style="margin-bottom: 20px;"></div>
+    <footer>
+            
+        <span><strong>Copyright<label for="copyName"> Andy Rodriguez 😎</label></strong></span>    
+
+    </footer>
+</body>
+</html>
